@@ -23,19 +23,19 @@
 /* Define the styles for the main header area */
 .header h1 {
     position: absolute;
-    margin-left: 1rem;
+    margin-left: 2rem;
     top: 1;
 }
 
 .header h2 {
     position: absolute;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-top: 3.4rem;
 }
 
 .header p {
     position: absolute;
-    margin-left: 1rem;
+    margin-left: 2rem;
     margin-top: 5.2rem;
 }
 
@@ -72,4 +72,21 @@
 .navigation a:hover,
 .navigation button:hover a {
     color: rgb(0, 0, 0);
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    background-color: white;
+    border-left: 2rem solid #04668d;
+    border-right: 2rem solid #04668d;
+    height: 40rem;
+}
+
+.mainContent h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #04b47f;
+    text-align: center;
 }
