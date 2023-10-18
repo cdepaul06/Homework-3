@@ -113,3 +113,75 @@
     border-top-left-radius: none;
     border-top-right-radius: none;
 }
+
+/* General styles for the table */
+table {
+    width: 80%;  /* Use 80% of its parent's width */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-collapse: collapse; /* Ensures there are no spacing between the cells */
+}
+
+/* Styles for table headers (th) */
+th {
+    background-color: #04668d;
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid #ddd;  /* Light gray border */
+    font-weight: bold;
+}
+
+/* Styles for table rows (tr) */
+tr:nth-child(even) {  /* Zebra-striping: give every other row a light background */
+    background-color: #f2f2f2;
+}
+
+/* Styles for table data (td) */
+td {
+    padding: 1rem;
+    border: 1px solid #ddd;  /* Light gray border */
+    vertical-align: top;
+}
+
+/* Hover effect for rows */
+tr:hover {
+    background-color: #e9e9e9;  /* Lighter gray on hover */
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover, .close:focus {
+    color: #000;
+    cursor: pointer;
+  }
+  

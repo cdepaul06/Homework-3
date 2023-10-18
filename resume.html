@@ -1,0 +1,80 @@
+<!-- Example website below -->
+<!-- https://web.cs.kent.edu/~sshubbar/Mywebsite/index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      charset="utf-8"
+    />
+    <title>Chris DePaul</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  </head>
+  <body>
+    <div id="header" class="header">
+      <h1>Chris DePaul</h1>
+      <h2>Software Developer</h2>
+      <p>B.S. Information Technology: Application Development (Student)</p>
+    </div>
+
+    <div id="navigation" class="navigation">
+      <a href="index.html" class="button">Home</a>
+      <a href="resume.html" class="button">Resume</a>
+      <a href="projects.html" class="button">Projects</a>
+      <a href="contact.html" class="button">Contact</a>
+    </div>
+
+    <div id="mainContent" class="mainContent">
+      <h1>Resume</h1>
+      <button id="btnShowPdf">Resume (PDF)</button>
+      <!-- Modal -->
+    <div id="pdfModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <embed src="assets/ChrisDePaulResumeFinal.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
+  </div>
+    <table>
+        <tr>
+            <th>Experience</th>
+            <th>Company</th>
+            <th>Duration</th>
+            <th>Skills</th>
+        </tr>
+        <tr>
+            <td>Full Stack Developer</td>
+            <td>Regency Technologies</td>
+            <td>2022 - Present</td>
+            <td>React, JavaScript, C#, HTML5, CSS3, SQL, RESTful API, .NET</td>
+        </tr>
+        <tr>
+            <td>Manager</td>
+            <td>Allstate Insurance Company</td>
+            <td>2015 - 2022</td>
+            <td>Leadership, Coaching, Professional Development, Root Cause Problem Solving</td>
+        </tr>
+        <tr>
+            <td>Project Manager</td>
+            <td>NorthStar Recovery Services</td>
+            <td>2013 - 2015</td>
+            <td>Disaster Recovery, Leadership, IICRC Certified</td>
+        </tr>
+        <tr>
+            <td>United States Marine</td>
+            <td>Marine Corps</td>
+            <td>2008 - 2013</td>
+            <td>Attention to Detail, Discipline, Markmanship, Physical Fitness</td>
+        </tr>
+    </table>
+    </div>
+
+    <footer id="footer" class="footer">
+      Chris DePaul <br />
+      chris@cd-developer.com
+    </footer>
+    <script src="functions/script.js"></script>
+  </body>
+</html>
+</html>
