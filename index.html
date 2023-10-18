@@ -13,8 +13,6 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
   </head>
   <body>
-    <script src="functions/script.js"></script>
-
     <div id="header" class="header">
       <h1>Chris DePaul</h1>
       <h2>Software Developer</h2>
@@ -24,28 +22,55 @@
     <div id="navigation" class="navigation">
       <a href="index.html" class="button">Home</a>
       <a href="resume.html" class="button">Resume</a>
-      <a href="projects.html" class="button">Projects</a>
       <a href="contact.html" class="button">Contact</a>
     </div>
 
     <div id="mainContent" class="mainContent">
-      <h1>Home</h1>
-      <p>
-        Welcome to my website! My name is Chris DePaul and I am a software
-        developer. I am currently a student at Kent State University studying
-        Information Technology with a concentration in Application Development.
-        I am also a full-time employee at Regency Technologies working as a
-        Software Developer. I have experience with Java, C#, JavaScript, HTML,
-        CSS, Visual Basic, .NET, React, Vite, and SQL. I am currently learning
-        Python and PHP. I am also interested in learning more about web
-        development and mobile development.
-      </p>
+      <div class="contentContainer">
+        <h1>Home</h1>
+        <p>
+          Welcome to my website! My name is Chris DePaul and I am a software
+          developer. I am currently a student at Kent State University studying
+          Information Technology with a concentration in Application
+          Development. I am also a full-time employee at Regency Technologies
+          working as a Software Developer. I have experience with Java, C#,
+          JavaScript, HTML, CSS, Visual Basic, .NET, React, Vite, and SQL. I am
+          currently learning Python and PHP. I am also interested in learning
+          more about web development and mobile development.
+        </p>
+      </div>
       <img src="images/wedding.jpg" alt="Wedding" style="scale: 0.5" />
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <header>Contact Chris DePaul</header>
+        <form id="contactForm">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send Message" class="button" />
+          </div>
+        </form>
+      </div>
     </div>
 
     <footer id="footer" class="footer">
       Chris DePaul <br />
       chris@cd-developer.com
     </footer>
+    <script src="functions/script.js"></script>
   </body>
 </html>
