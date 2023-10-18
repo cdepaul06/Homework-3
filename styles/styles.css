@@ -51,7 +51,7 @@
 .navigation .button {
     background-color: #04b47f;
     border: 1px solid transparent;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
     margin: 1rem;
     border-radius: 0.5rem;
     font-size: 1.2rem;
@@ -80,14 +80,12 @@
     flex-direction: column; /* Stacks items on top of each other */
     align-items: center; /* Centers items horizontally */
     justify-content: center; /* Centers items vertically (optional) */
-    padding: 2px;
+    padding: 1px;
     background-color: white;
     border-left: 2rem solid #04668d;
     border-right: 2rem solid #04668d;
-    min-height: 40rem;  /* Change to min-height */
-    gap: 1rem; /* Spacing between items */
+    min-height: 20rem;  /* Change to min-height */
 }
-
 
 .mainContent h1 {
     margin-top: 1rem;
@@ -95,6 +93,7 @@
     color: #04b47f;
     text-align: center;
 }
+
 .mainContent p {
     padding: 0.5rem;
 }
