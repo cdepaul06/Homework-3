@@ -185,3 +185,22 @@ tr:hover {
     cursor: pointer;
   }
   
+  .button {
+    background-color: #04b47f;
+    border: 1px solid transparent;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out; /* Transition effect */
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+.button:hover {
+    background-color: #038c5a; /* Background color on hover */
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+}
+
